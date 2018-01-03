@@ -6,10 +6,13 @@ Usage
 
 python my-milight.py [-h] -c CMD [-b BRIGHTNESS] [-s SATURATION] [-o COLOR] -z ZONE
 
+required arguments:
+-c CMD, --cmd CMD     ON,OFF,BRI,SAT,COLOR,WHITE
+
+-z ZONE, --zone ZONE Value of ZONE (1,2,3,4, 0 means all, 5 means bridge)
+
 optional arguments:
   -h, --help            show this help message and exit
-  
-  -c CMD, --cmd CMD     ON,OFF,BRI,SAT,COLOR,WHITE
   
   -b BRIGHTNESS, --brightness BRIGHTNESS Value of brightess percent
   
@@ -17,5 +20,4 @@ optional arguments:
   
   -o COLOR, --color COLOR Value of color
   
-  -z ZONE, --zone ZONE Value of ZONE (1,2,3,4, 0 means all, 5 means bridge)
-
+  
