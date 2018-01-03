@@ -3,13 +3,12 @@ import sys
 import time
 import binascii
 import argparse
-import random
  
 HOST = ''   # Symbolic name meaning all available interfaces
 PORT = 5987 # Arbitrary non-privileged port
 BRIDGE ='192.168.88.25'
 
-parser = argparse.ArgumentParser(description='Description of your program')
+parser = argparse.ArgumentParser(description='A simple easy-to-integrate with ha-bridge - and therefore Google home & Amazon eco - milight v6 bridge controller python script')
 parser.add_argument('-c','--cmd', help='ON,OFF,BRI,SAT,COLOR,WHITE', required=True)
 parser.add_argument('-b','--brightness', help='Value of brightess percent', required=False)
 parser.add_argument('-s','--saturation', help='Value of saturation percent', required=False)
