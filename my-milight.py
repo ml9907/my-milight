@@ -6,7 +6,7 @@ import argparse
  
 HOST = ''   # Symbolic name meaning all available interfaces
 PORT = 5987 # Arbitrary non-privileged port
-BRIDGE ='192.168.88.25'
+BRIDGE ='192.168.88.25' # Change here for your local milight hub address
 
 parser = argparse.ArgumentParser(description='A simple easy-to-integrate with ha-bridge - and therefore Google home & Amazon eco - milight v6 bridge controller python script')
 parser.add_argument('-c','--cmd', help='ON,OFF,BRI,SAT,COLOR,WHITE', required=True)
