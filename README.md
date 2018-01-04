@@ -23,6 +23,5 @@ optional arguments:
   
   -o COLOR, --color COLOR Value of color
   
-Based on: https://stackoverflow.com/questions/42535502/problems-with-sending-udp-packets-milight-limitlessled/  
-
+Based on: https://stackoverflow.com/questions/42535502/problems-with-sending-udp-packets-milight-limitlessled/
           http://www.limitlessled.com/dev/
